@@ -15,14 +15,14 @@ Essa validação é feita através do coeficiente de pearson e está disponível
 Para melhor visualização utilizei uma representação gráfica do módulo seaborn chamad heatmap.
 
 <p align="center">
-  <img src="heatmap.png">
+  <img src="assets/heatmap.png">
 <p/>
 
 Como é possível notar, as notas de matemática e ciências da natureza tem um coeficiente de correlação de 0.65, 
 segundo a literatura este nível de correlação é considerado moderado:
 
 <p align="center">
-  <img src="pearson_correlation.png">
+  <img src="assets/pearson_correlation.png">
 <p/>
 
 Portanto é possível, realizar um regressão linear porém com um precisão não tão alta. 
@@ -33,43 +33,43 @@ Essa análise de correlação moderada entre as notas de matemática e ciências
 criado com o módulo matplolib do python.
 
 <p align="center">
-  <img src="scatter_01.png">
+  <img src="assets/scatter_01.png">
 <p/>
 
 ## Segundo Passo: Aplicação Estatística
 Para realizar a aplicação estatística utilizei fórmulas básicas de regressão linear simples:
 
 <p align="center">
-  <img src="equations.png">
+  <img src="assets/equations.png">
 <p/>
 
 Através dessas fórmulas aplicadas em código foi possível obter a equação da reta utilizando os dados de treinamento (80% do total):
 
 <p align="center">
-  <img src="scatter_02.png">
+  <img src="assets/scatter_02.png">
 <p/>
 
 ## Terceiro Passo: Validação do Algorítimo
 Trocando os dados de treinamento pelos dados de teste (20% do total), obtive os seguintes resultados:
 
 <p align="center">
-  <img src="predict_01.png">
+  <img src="assets/predict_01.png">
 <p/>
 
 <p align="center">
-  <img src="predict_02.png">
+  <img src="assets/predict_02.png">
 <p/>
 
 <p align="center">
-  <img src="predict_03.png">
+  <img src="assets/predict_03.png">
 <p/>
 
 <p align="center">
-  <img src="predict_04.png">
+  <img src="assets/predict_04.png">
 <p/>
 
 <p align="center">
-  <img src="predict_05.png">
+  <img src="assets/predict_05.png">
 <p/>
 
 ## Quarto Passo: Calculando Erros
