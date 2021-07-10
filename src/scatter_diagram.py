@@ -11,7 +11,7 @@ def generate_scatter_diagram(df):
     plt.legend()
 
 
-def generate_scatter_diagram_train(df_train):
+def generate_scatter_diagram_train(df_train, line):
     x_var = df_train['NU_NOTA_MT'].values
     y_var = df_train['NU_NOTA_CN'].values
     plt.scatter(x_var, y_var, label='NOTAS')
